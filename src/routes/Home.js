@@ -1,15 +1,17 @@
 import { h } from 'preact';
-import { Link } from 'preact-router';
+import CovidLister from '../container/covidLister/CovidLister';
+import Notifier from '../container/notifier/Notifier';
 
-const Login = () => (
+const Home = () => (
   <div>
     <div style={{background: '#673AB7', color: 'white', height: '200px', borderRadius: '5px'}}>
       <div style={{ paddingTop: '100px', textAlign: 'center' }}>
         Hello Preact!
       </div>
     </div>
-    <div style={{ marginTop: '20px'}}>Goto <Link href="/login">Login</Link></div>
+    <Notifier/>
+    <CovidLister/>
   </div>
 );
 
-export default Login;
+export default Home;
