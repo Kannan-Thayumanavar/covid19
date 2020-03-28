@@ -3,7 +3,7 @@
 ## Dev:
 `npm i`
 `npm run dev`
-goto http://localhost:8090/s
+goto http://localhost:8090/
 
 
 ## Production:
