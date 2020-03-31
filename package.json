@@ -71,7 +71,8 @@
     "express": "4.16.3",
     "preact": "10.0.0",
     "preact-render-to-string": "5.0.6",
-    "preact-router": "^3.1.0"
+    "preact-router": "^3.1.0",
+    "web-push": "^3.4.3"
   },
   "eslintConfig": {
     "extends": "eslint-config-synacor"
